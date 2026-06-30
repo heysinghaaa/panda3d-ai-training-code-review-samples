@@ -1,0 +1,16 @@
+[project]
+name = "panda3d-ai-training-code-review-samples"
+version = "0.1.0"
+description = "AI-training style Panda3D/Python game-logic code review samples."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
